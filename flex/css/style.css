@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(219, 219, 219, 0);
+    
+    /* padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-bottom: 20%; */
+    
+}
+
+#contenedor_padre{
+    background-color: rgb(130, 130, 255);
+    padding: 3%;
+    text-align: center;
+    height: 400px;
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: column;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    /* justify-content:flex-end; */
+    /* align-items: baseline; */
+    /* justify-content: center; */
+    align-content: space-around;
+    }
+.contenedor_hijo{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 33%;
+    margin: 2px;
+    text-align: center;
+    display: flex; 
+    justify-content: center; /* SI NO FUNCIONA TEXT ALIGN*/
+    align-items: center;
+    flex: auto;
+
+}
+
+
+#contenedor_hijo_1{
+    background-color: rgb(251, 255, 0);
+   
+}
+
+#contenedor_hijo_2{
+    background-color: orange;
+    
+}
+
+#contenedor_hijo_3{
+    background-color: rgb(55, 57, 189);
+}
+#contenedor_hijo_4{
+    background-color: rgb(50, 202, 19);
+}
+
+#contenedor_hijo_5{
+    background-color: rgb(170, 42, 42);
+}
+#contenedor_hijo_6{
+    background-color: rgb(202, 19, 178);
+}
+#contenedor_hijo_7{
+    background-color: rgb(135, 19, 202);
+}

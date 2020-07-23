@@ -1,0 +1,45 @@
+body{
+    background: #f5f7f8;
+}
+#grid_padre{
+    padding: 15px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    gap: 20px; /* logra distancia entre elementos*/
+}
+
+#grid_padre article{
+    color: white;
+    /* background-color: orange; */
+    padding: 20px;
+}
+
+#item_1{
+    background: #b03532;
+}
+#item_2{
+    background: #33a8a3;
+}
+
+#item_3{
+    background-color: red;
+}
+#item_4{
+    background: salmon;
+}
+#item_5{
+    background: violet;
+}
+#item_6{
+    background-color: teal;
+}
+#item_7{
+    background: skyblue;
+}
+#item_8{
+    background: seagreen;
+}
+#item_9{
+    background: purple;
+}
